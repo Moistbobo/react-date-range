@@ -69,7 +69,7 @@ class DateRange extends Component {
     return {
       wasValid: !(inValidDatesWithinRange.length > 0),
       range: { startDate, endDate },
-      nextFocusRange: nextFocusRange,
+      nextFocusRange: focusedRange,
     };
   };
   setSelection = (value, isSingleValue) => {
